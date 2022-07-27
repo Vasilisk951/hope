@@ -15,6 +15,7 @@ export const HomePageLayout: FunctionComponent<HomePageLayoutProps> = ({ activeI
                 <meta name="description" content="Сайт является сборником вдохновляющих высказываний и афоризмов выдающихся людей" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
             <div className={styles.active__text}>
                 {activeItem}
             </div>
