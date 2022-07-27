@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 
 import { helpPhrases } from './data';
 
-import { HomePageLayout } from '../components/HomePageLayout';
+import HomePageLayout from '../components/HomePageLayout';
 
-export const HomePageContainer = () => {
+const HomePageContainer = () => {
 
     const [activeItem, setActiveItem] = useState(helpPhrases[0]);
 
@@ -22,3 +22,5 @@ export const HomePageContainer = () => {
         activeItem={activeItem}
     />
 }
+
+export default HomePageContainer;

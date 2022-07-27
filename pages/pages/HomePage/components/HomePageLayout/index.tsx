@@ -7,7 +7,7 @@ interface HomePageLayoutProps {
 
 import styles from './styles/styles.module.css'
 
-export const HomePageLayout: FunctionComponent<HomePageLayoutProps> = ({ activeItem }) => {
+const HomePageLayout: FunctionComponent<HomePageLayoutProps> = ({ activeItem }) => {
     return (
         <div className={styles.home__page}>
             <Head>
@@ -22,3 +22,5 @@ export const HomePageLayout: FunctionComponent<HomePageLayoutProps> = ({ activeI
         </div >
     )
 }
+
+export default HomePageLayout;
