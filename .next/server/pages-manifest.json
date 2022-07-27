@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/pages/HomePage/components/HomePageLayout": "pages/pages/HomePage/components/HomePageLayout.js",
+  "/": "pages/index.js",
+  "/api/hello": "pages/api/hello.js",
+  "/pages/HomePage/containers": "pages/pages/HomePage/containers.js",
+  "/pages/HomePage/containers/data": "pages/pages/HomePage/containers/data.js",
+  "/_document": "pages/_document.js"
+}
