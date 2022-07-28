@@ -13,6 +13,7 @@ const HomePageLayout: FunctionComponent<HomePageLayoutProps> = ({ activeItem }) 
             <Head>
                 <title>Надежда</title>
                 <meta name="description" content="Сайт является сборником вдохновляющих высказываний и афоризмов выдающихся людей" />
+                <meta name="keywords" content="Надежда, афоризмы, высказывания"/>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
