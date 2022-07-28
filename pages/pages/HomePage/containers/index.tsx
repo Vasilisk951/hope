@@ -13,13 +13,10 @@ const HomePageContainer = () => {
     const [activeItem, setActiveItem] = useState(helpPhrases[0]);
 
     useEffect(() => {
-        if (activeItem) {
-            setInterval(() => {
-                setActiveItem(helpPhrases[getRandomInt(helpPhrases.length - 1)]);
-            }, 15000);
-
-        }
-    }, [activeItem]);
+        setInterval(() => {
+            setActiveItem(helpPhrases[getRandomInt(helpPhrases.length - 1)]);
+        }, 15000);
+    }, []);
 
     return <HomePageLayout
         activeItem={activeItem}
