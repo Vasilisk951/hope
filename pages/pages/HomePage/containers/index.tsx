@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import helpPhrases from './data';
+import { helpPhrases } from './data';
 
 import HomePageLayout from '../components/HomePageLayout';
 
