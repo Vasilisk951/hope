@@ -15,7 +15,7 @@ const HomePageContainer = () => {
     useEffect(() => {
         if (activeItem) {
             setInterval(() => {
-                setActiveItem(helpPhrases[getRandomInt(helpPhrases.length)]);
+                setActiveItem(helpPhrases[getRandomInt(helpPhrases.length - 1)]);
             }, 5000);
 
         }
