@@ -16,7 +16,7 @@ const HomePageContainer = () => {
         if (activeItem) {
             setInterval(() => {
                 setActiveItem(helpPhrases[getRandomInt(helpPhrases.length - 1)]);
-            }, 5000);
+            }, 15000);
 
         }
     }, [activeItem]);
