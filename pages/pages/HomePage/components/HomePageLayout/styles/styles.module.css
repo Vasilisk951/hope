@@ -14,3 +14,20 @@
     word-spacing: 10px;
     text-shadow: 4px 4px 5px #c4c4c4;
 }
+
+.home__page .active__text .text{
+    font-size: 26px;
+    font-weight: 300;
+    word-spacing: 10px;
+    text-shadow: 4px 4px 5px #c4c4c4;
+}
+
+.home__page .active__text .author{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 10px;
+    text-shadow: 4px 4px 5px #c4c4c4;
+}

@@ -2,7 +2,10 @@ import React, { FunctionComponent } from "react";
 import Head from 'next/head'
 
 interface HomePageLayoutProps {
-    activeItem: string
+    activeItem: {
+        text: string,
+        author: string
+    }
 }
 
 import styles from './styles/styles.module.css'
@@ -18,7 +21,12 @@ const HomePageLayout: FunctionComponent<HomePageLayoutProps> = ({ activeItem }) 
             </Head>
 
             <div className={styles.active__text}>
-                {activeItem}
+                <div className={styles.text}>
+                    {activeItem.text}
+                </div>
+                <div className={styles.author}>
+                    &#169;{activeItem.author}
+                </div>
             </div>
         </div >
     )
